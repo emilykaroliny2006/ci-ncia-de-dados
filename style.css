@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --bg-color: black;
+    --bg-color: rgb(243, 243, 243);
     --primary-color: rgb(71, 8, 114);
     --secondary-color: rgba(255, 255, 255, 0);
     --font: "Nunito Sans", sans-serif;
@@ -18,6 +18,7 @@ body {
 header {
     background-color: var(--primary-color);
     text-align: center;
+    color: var(--bg-color);
     padding: 1px;
 }
 
@@ -127,27 +128,7 @@ ul {
         font-family: var(--font);
         height: 100vh;
         margin: 0;
-    }
-    
-    header {
-        background-color: var(--primary-color);
-        text-align: center;
-        padding: 1px;
-    }
-    
-    h1 {
-        font-size: 2rem;
-        color: var(--bg-color);
-        font-weight: 700;
-        font-weight: bolder;
-    }
-    
-    nav {
-        display: flex;
-        justify-content: center;
-        font-weight: 400;
-    }
-    
+…    
     nav a {
         text-decoration: none;
         color: var(--bg-color);
