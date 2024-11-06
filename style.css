@@ -2,8 +2,8 @@
 
 :root {
     --bg-color: black;
-    --primary-color: pink;
-    --secondary-color: white;
+    --primary-color: rgb(71, 8, 114);
+    --secondary-color: rgb(145, 100, 182);
     --font: "Nunito Sans", sans-serif;
 }
 
@@ -22,7 +22,7 @@ header {
 }
 
 h1 {
-    font-size: 2rem;
+  font-size: 2rem;
     color: var(--bg-color);
     font-weight: 700;
     font-weight: bolder;
