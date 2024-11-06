@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --bg-color: rgb(243, 243, 243);
+    --bg-color: rgb(154, 77, 199);
     --primary-color: rgb(71, 8, 114);
     --secondary-color: rgba(255, 255, 255, 0);
     --font: "Nunito Sans", sans-serif;
@@ -87,7 +87,7 @@ footer {
 }
 
 p {
-    color: rgb(38, 121, 247);
+    color: rgb(253, 253, 253);
     text-decoration: none;
     font-size: larger;
     font-size: 32px;
